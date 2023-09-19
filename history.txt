@@ -1,0 +1,220 @@
+  294  mkdir gitFiles
+  295  cd gitFiles
+  298  git init
+  300  git add _
+  301  git commit -m 'add html and css file'
+  305  git add _
+  307  git commit -m 'delte html and add js'
+  308  git log
+  310  git log
+  318  bash git
+  319  git init
+  326  rmdir gitFiles
+  327  ls gitFiles
+  333  git init
+  334  git add .
+  335  git commit -m 'add html and css file'
+  339  git add .
+  340  git commit -m 'delete html and add js'
+  342  git log
+  343  git checkout 4271c23c914c51a2d55ff34dfab1998de87a0e2a
+  347  git --version
+  365  rm gitFiles
+  369  git config --global user.name "Aidan Cooney"
+  370  git config --global user.name "acooney613@gmail.com"
+  371  git config --global core.editor "code --wait"
+  372  git config --global init.defaultBranch main
+  375  git config --list
+  376  git config user.name "Aidan Cooney"
+  377  git config --global user.name "Aidan Cooney"
+  378  git config --global user.email "acooney613@gmail.com"
+  379  git config --list
+  384  mkdir git_practice
+  385  cd git_practice
+  391  git status
+  392  git init
+  393  git status
+  395  rm -rf .git
+  408  git init
+  415  git status
+  416  git commit -m 'create'
+  418  git add file_1.txt
+  419  git status
+  420  git commit -m 'create file_1.txt'
+  421  git status
+  422  git log
+  423  git log --oneline
+  425  git status
+  426  git status
+  427  git add file_1.txt
+  428  git status
+  429  git add file_2.txt
+  430  git status
+  431  git commit -m 'Edit text files'
+  432  git status
+  433  git log
+  434  git log --oneline
+  439  git --version
+  777  cd git_practice
+  818  cd git_practice
+  820  git status
+  821  touch .gitignore
+  824  nano .gitignore
+  825  git status
+  826  git add .
+  827  git status
+  828  git commit -m 'Create gitignore'
+  831  nano .gitignore
+  833  git status
+  835  git status
+  839  git branch
+  840  git branch new_feature
+  841  git branch
+  842  git switch new_feature
+  843  git branch
+  845  git add .
+  846  git commit -m 'create feature file'
+  847  git log --oneline
+  848  git switch main
+  849  git log --oneline
+  850  git merge new_feature
+  851  git branch
+  852  git log --oneline
+  853  git branch -d new_feature
+  854  git branch
+  855  git status
+  857  git log
+  858  git log --oneline
+  860  git remote
+  861  git remote add origin git@github.com:acooney613/git-practice-acooney613.git
+  862  git remote 
+  863  git remote -v
+  864  git push -u origin main
+  873  cd git_practice
+  877  git status
+  880  git log --oneline
+  881  git log
+  882  git checkout 0740122415dbe939aaf3240b89f9e97b900bf024
+  883  git branch
+  884  git switch -
+  885  git branch
+  886  git log --oneline
+  887  git checkout 0740122
+  888  git branch
+  889  git switch -
+  890  git status
+  892  git branch -a
+  893  git branch -r
+  917  mv git_practice git_inclass_practice
+  920  mkdir git_practice
+  922  cd git_practice
+  925  git init
+  927  git status
+  931  git status
+  932  git add .
+  933  git status
+  934  git commit "create new files"
+  935  git commit -m "create new files"
+  936  git status
+  937  git log
+  940  git status
+  942  git add file_1.txt
+  943  git commit "add file_t"
+  944  git commit -m "add file_1"
+  945  git status
+  947  git add file_2.txt
+  948  git commit -m "add file_2"
+  949  git status
+  950  git log --oneline
+  955  git add Readme.md
+  956  git commit -m "add Readme file"
+  957  git log --online
+  958  git log --oneline
+  959  touch .gitignore
+  960  nano .gitignore
+  962  git status
+  963  git commit -m "gitignore"
+  964  git add .gitignore
+  965  git commit -m "add gitignore"
+  967  git status
+  970  git status
+  971  git branch "features"
+  972  git branch
+  973  git switch features
+  974  git log
+  975  git log --oneline
+  977  git add "new_features.txt"
+  978  git commit -m "add empty file"
+  980  git status
+  981  git add new_features.txt
+  982  git commit -m "new features update"
+  983  git switch main
+  986  git add file_1.txt
+  987  git commit -m "update file_1"
+  988  git merge features
+  990  git commit "merging features branch"
+  991  git commit -m "merging features branch"
+  992  git log --oneline
+  993  git branch
+  997  git add new_features.txt
+  998  git commit -m "features file change"
+ 1006  cd git_practice
+ 1009  git status
+ 1010  git branch
+ 1011  git switch features
+ 1014  git add .
+ 1015  git commit -m "features new text"
+ 1016  git switch main
+ 1017  git merge features
+ 1019  git add .
+ 1020  git commit -m "resolve merge conflict"
+ 1021  git log --oneline
+ 1022  git branch -d features
+ 1023  git branch
+ 1024  git remote add origin git@github.com:acooney613/git-practice-acooney613.git
+ 1025  git push -u origin main
+ 1030  git clone https://github.com/acooney613/git-practice-aoustrich.git
+ 1032  cd git-practice-aoustrich
+ 1034  git branch feature-acooney613
+ 1035  git branch
+ 1037  git add .
+ 1038  git commit -m "acooney613 commits"
+ 1039  git push origin feature-acooney613
+ 1040  git push origin feature-acooney613
+ 1041  git push origin feature-acooney613
+ 1042  git push origin feature-acooney613
+ 1043  git remote add origin git@github.com:acooney613/git-practice-aoustrich.git
+ 1044  git branch
+ 1048  git branch
+ 1049  git switch feature-acooney613
+ 1053  git add .
+ 1054  git commit -m "add newfile"
+ 1055  git push origin feature-acooney613
+ 1058  rm git-practice-aoustrich
+ 1060  git clone https://github.com/acooney613/git-practice-aoustrich.git
+ 1062  rm -fr git-practice-aoustrich
+ 1064  git clone https://github.com/acooney613/git-practice-aoustrich.git
+ 1066  cd git-practice-aoustrich
+ 1068  git branch feature-acooney613
+ 1069  git switch feature-acooney613
+ 1071  git add .
+ 1072  git commit -m "acooney613 commit"
+ 1073  git push origin feature-acooney613
+ 1074  git push origin feature-acooney613
+ 1075  git push origin feature-acooney613
+ 1076  git push origin feature-acooney613
+ 1079  rm -rf git-practice-aoustrich
+ 1081  git clone git@github.com:acooney613/git-practice-aoustrich.git
+ 1082  cd git-practice-aoustrich
+ 1084  git branch feature-acooney613
+ 1085  git switch feature-acooney613
+ 1088  git add .
+ 1089  git commit -m "acooney613 commit"
+ 1090  git push origin feature-acooney613
+ 1093  cd git_practice
+ 1095  git pull
+ 1097  git status
+ 1098  git log --oneline
+ 1099  git log --oneline > gitlog.txt
+ 1101  histoy 0 | grep git
+ 1102  history 0 | grep git

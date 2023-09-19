@@ -1,0 +1,14 @@
+6c10ae8 Merge pull request #1 from aoustrich/feature-aoustrich
+f7a008b add new_message.txt
+e2f08df resolve merge conflict
+28e4811 features new text
+75d0113 features file change
+8e60e9c merging features branch
+a39431b update file_1
+1fd61ef new features update
+eaddaf0 add empty file
+d944309 add gitignore
+dcea5f8 add Readme file
+4c1cc13 add file_2
+67ed0c2 add file_1
+e18de34 create new files
